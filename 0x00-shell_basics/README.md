@@ -1,2 +1,1 @@
-
-shell basic
+my name is bettys
