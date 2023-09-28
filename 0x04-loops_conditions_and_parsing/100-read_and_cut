@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that displays the content of the file /etc/passwd
+# Only display username
+# Must use while loop
+
+while read -r passwd
+do
+	echo "$passwd" | cut -d ':' -f1,5,8
+done < "/etc/passwd"
