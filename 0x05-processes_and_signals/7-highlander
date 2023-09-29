@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Function to handle SIGTERM signal
+terminate() {
+    # Kill the process with the name "7-highlander"
+    pkill -f "7-highlander"
+    echo "Highlander is defeated!"
+    exit 0
+}
+
+# Register the terminate function to handle SIGTERM
+trap terminate SIGTERM
+
+while true; do
+    echo "To infinity and beyond indefinitely"
+    sleep 2
+done
