@@ -4,4 +4,4 @@
 # depending on which machine you are running the script on
 
 
-ifconfig | grep 'inet ' | awk '{print $4}'
+ifconfig | grep 'inet ' | awk '{print $2}'
