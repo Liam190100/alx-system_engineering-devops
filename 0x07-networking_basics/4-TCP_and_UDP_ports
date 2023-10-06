@@ -1,3 +1,5 @@
-#!/usr/bin/evn bash
+#!/usr/bin/env bash
 #That only shows listening sockets
+
+
 netstat -lp
