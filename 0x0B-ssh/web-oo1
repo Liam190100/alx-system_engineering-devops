@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This are the logging to server
+
+eval $("ssh-agent")
+# log in pravite key
+ssh-add ~/.ssh/school
+
+ssh ubuntu@100.25.28.54
