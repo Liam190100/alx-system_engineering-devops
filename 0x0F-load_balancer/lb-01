@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This are the logging to the private
+
+eval $(ssh-agent -s)
+ssh-add /root/.ssh/school
+
+ssh ubuntu@54.152.53.204
+
