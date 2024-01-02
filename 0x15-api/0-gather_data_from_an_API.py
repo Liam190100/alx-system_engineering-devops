@@ -1,4 +1,4 @@
-#!/usr/bin/python 3
+#!/usr/bin/python3
 """
 Python script that, using this REST API, for a given employee ID
 Returns information about his/her TODO list progress
